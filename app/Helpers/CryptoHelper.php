@@ -21,7 +21,7 @@ class CryptoHelper
             'PI' => 'pi-network',
         ];
 
-        $symbol = strtoupper(trim($symbol)); // ← trim entfernt Leerzeichen
+        $symbol = strtoupper(trim($symbol)); 
         $coinId = $idMap[$symbol] ?? null;
 
         if (!$coinId) {

@@ -19,7 +19,7 @@ Route::resource('investments', InvestmentController::class);
 
 Route::get('/news', function () {
     $news = NewsHelper::getLatestNews();
-    Session::put('news_items', $news); // wichtig für Detailansicht
+    Session::put('news_items', $news); 
     return view('Nachrichten.news', ['news' => $news]);
 })->name('news.index');
 

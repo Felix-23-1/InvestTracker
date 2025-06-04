@@ -26,14 +26,7 @@
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Crypto Invest Tracker</span>
             </a>
 
-             <!--Dorpdown menu-->
-                {{-- <div class="z-50 hidden ,y-4 text-base list-one bg-white divide-y divide-gray-100 rounded-lg shadow-sm darl:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
-                    <div class='px-4 py-3'>
-
-                        <span class="block text-sm text-gray-900 dark:text-white">Felix</span>
-                        <span class="block text-sm text-gray-500 dark:text-gray-400">...</span>
-
-                    </div> --}}
+           
 
                         <ul>
                             <a href="investments" class="block px-4 py-2 text-sm text-white hover:bg-gray-700 dark:hover:bg-gray darl:text-gray-200 dark:hover:text-white">Portfolio</a>
@@ -51,12 +44,7 @@
 
                     </ul>
                 </div>
-                {{-- <button data-collapse-toggle="navbar-user" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-user" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
-                </button> --}}
+
             </div>
 
             <div class="items-center justify-between hidden w-full mf:flex md:w-auto md:order-1" id="navbar-user">
@@ -76,21 +64,6 @@
     </nav>
 
 
-    {{-- <header class="bg-gray-800 bg-opacity-70 backdrop-blur-md sticky top-0 z-50 shadow-md border-b border-gray-700">
-        <div class="container mx-auto flex justify-between items-center px-6 py-4 max-w-7xl">
-            <a href="{{ url('/') }}" class="text-3xl font-extrabold text-gray-400 hover:text-gray-500 transition transform hover:scale-110">
-                💰 Crypto Invest Tracker
-            </a>
-            <nav class="space-x-8 text-lg font-semibold hidden md:flex">
-                <a href="{{ route('investments.index') }}"
-                   class="{{ request()->routeIs('investments.*') ? 'text-green-400' : 'text-gray-300 hover:text-green-400' }} transition-colors duration-200">
-                    Portfolio
-                </a>
-                <a href="{{ route('news.index') }}"
-                   class="{{ request()->routeIs('news.*') ? 'text-blue-400' : 'text-gray-300 hover:text-blue-400' }} transition-colors duration-200">
-                    News
-                </a>
-            </nav> --}}
             {{-- Mobile menu button --}}
             <div class="md:hidden">
                 <button id="mobile-menu-button" aria-label="Menü" class="focus:outline-none focus:ring-2 focus:ring-green-400 rounded">
